@@ -1,6 +1,4 @@
-import Image from "next/image";
-import bg from "../../public/hero-bg.jpg";
-import { ArrowDown, Truck } from "lucide-react";
+import { Truck } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {
@@ -34,6 +32,11 @@ export default function Hero() {
               >
                 Our Services
               </Link>
+            </div>
+          </div>
+          <div className="hidden lg:block">
+            <div className="relative">
+              <div className="absolute -top-10 -left-10"></div>
             </div>
           </div>
         </div>
